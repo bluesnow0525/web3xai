@@ -1,0 +1,53 @@
+# ============================================================
+# AI × Web3 School — .gitignore
+# 安全第一：永遠不要提交私鑰、助記詞或 API 憑證
+# ============================================================
+
+# 環境變數與密鑰（絕對不能提交）
+.env
+.env.*
+.env.local
+.env.production
+*.key
+*.pem
+*.secret
+secrets/
+private/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Hardhat / Foundry
+cache/
+artifacts/
+out/
+broadcast/
+deployments/localhost/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# IDE
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# 測試覆蓋率
+coverage/
+lcov.info
+
+# 暫存檔案
+*.tmp
+*.bak
+*.log
